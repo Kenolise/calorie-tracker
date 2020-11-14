@@ -1,4 +1,4 @@
-Your Friendly Calorie Tracker😁
+Nigerian Food Friendly Calorie Tracker🍕🍖🍔🍟🍩🍜🍝🍲🥙🍰
 ===============
 ![Alt Text](https://media.giphy.com/media/H6hZQgKR50nOlOVbT1/giphy.gif)
 ## Description
