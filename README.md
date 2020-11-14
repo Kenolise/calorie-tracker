@@ -1,7 +1,6 @@
 Calorie Tracker
-![Alt Text](https://media.giphy.com/media/H6hZQgKR50nOlOVbT1/giphy.gif)
-
 ===============
+![Alt Text](https://media.giphy.com/media/H6hZQgKR50nOlOVbT1/giphy.gif)
 ## Description
 This Calorie Tracker javascript application was created **purely with vanilla javascript** while following Brad Traversy's Udemy course ["Modern Javascript From The Beginning"](https://www.udemy.com/modern-javascript-from-the-beginning/).
 The purpose of this exercise exercise is to create a full CRUD application without the use of any frameworks whatsoever.
