@@ -3,7 +3,8 @@ Nigerian Food Calorie Tracker🍕🍖🍔🍩🍜🍝🍲🥙🍰
 ![Alt Text](https://media.giphy.com/media/H6hZQgKR50nOlOVbT1/giphy.gif)
 
 ## Description
-This Calorie Tracker javascript application was created **purely with vanilla javascript** 
+This Calorie Tracker javascript application was created **purely with vanilla javascript** .
+
 **Try it out here:** ["Naija Food Calorie Tracker"](https://naijacalorietracker.netlify.app/).
 
 
