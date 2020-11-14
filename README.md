@@ -1,9 +1,11 @@
-Nigerian Food Calorie Tracker🍕🍖🍔🍟🍩🍜🍝🍲🥙🍰
+Nigerian Food Calorie Tracker🍕🍖🍔🍩🍜🍝🍲🥙🍰
 ===============
 ![Alt Text](https://media.giphy.com/media/H6hZQgKR50nOlOVbT1/giphy.gif)
+
 ## Description
-This Calorie Tracker javascript application was created **purely with vanilla javascript** while following Brad Traversy's Udemy course ["Modern Javascript From The Beginning"](https://www.udemy.com/modern-javascript-from-the-beginning/).
-The purpose of this exercise exercise is to create a full CRUD application without the use of any frameworks whatsoever.
+This Calorie Tracker javascript application was created **purely with vanilla javascript** 
+**Try it out here:** ["Naija Food Calorie Tracker"](https://naijacalorietracker.netlify.app/).
+
 
 ## Features
 * Add meals with calories to the list
@@ -13,7 +15,8 @@ The purpose of this exercise exercise is to create a full CRUD application witho
 * Have the data persist via local storage
 * Change the application state for the edit mode
 
-## Dependencies
-* Materialize CSS and JS
-* Font Awesome CSS for icons
-* jQuery (for Materialize)
+## Tools
+* JavaScript ( Materialize CSS and JS)
+* HTML/CSS (Font Awesome CSS for icons)
+
+

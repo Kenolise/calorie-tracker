@@ -47,7 +47,30 @@
         </form>
       </div>
 
+      <!-- Calorie Count -->
+      <h4 class="center-align">Total Calories: <span class="total-calories">0</span></h4>
 
+      <!-- Item List -->
+      <ul id="item-list" class="collection">
+        <!-- <li class="collection-item" id="item-0">
+  <strong>Steak Dinner: </strong><em>1200 Calories</em>
+  <a href="#" class="secondary-content">
+    <i class="edit-item fa fa-pencil"></i>
+  </a>
+</li>
+<li class="collection-item" id="item-0">
+  <strong>Cookie: </strong><em>400 Calories</em>
+  <a href="#" class="secondary-content">
+    <i class="edit-item fa fa-pencil"></i>
+  </a>
+</li>
+<li class="collection-item" id="item-0">
+  <strong>Eggs: </strong><em>300 Calories</em>
+  <a href="#" class="secondary-content">
+    <i class="edit-item fa fa-pencil"></i>
+  </a>
+</li> -->
+      </ul>
 
 
       <style type="text/css">
@@ -69,6 +92,9 @@
           font-weight: bold;
         }
       </style>
+
+
+
       <table class="tableizer-table">
         <thead>
           <tr class="tableizer-firstrow">
@@ -1210,35 +1236,35 @@
 
 
 
-      <!-- Calorie Count -->
-      <h4 class="center-align">Total Calories: <span class="total-calories">0</span></h4>
-      <!-- Item List -->
-      <ul id="item-list" class="collection">
-        <!-- <li class="collection-item" id="item-0">
-        <strong>Steak Dinner: </strong><em>1200 Calories</em>
-        <a href="#" class="secondary-content">
-          <i class="edit-item fa fa-pencil"></i>
-        </a>
-      </li>
-      <li class="collection-item" id="item-0">
-        <strong>Cookie: </strong><em>400 Calories</em>
-        <a href="#" class="secondary-content">
-          <i class="edit-item fa fa-pencil"></i>
-        </a>
-      </li>
-      <li class="collection-item" id="item-0">
-        <strong>Eggs: </strong><em>300 Calories</em>
-        <a href="#" class="secondary-content">
-          <i class="edit-item fa fa-pencil"></i>
-        </a>
-      </li> -->
-      </ul>
+
     </div>
 
     <script src="http://code.jquery.com/jquery-3.3.1.min.js"
       integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
     <script src="app.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        // Add smooth scrolling to all links
+        $("a").on('click', function (event) {
+          // Make sure this.hash has a value before overriding default behavior
+          if (this.hash !== "") {
+            // Prevent default anchor click behavior
+            event.preventDefault();
+            // Store hash
+            var hash = this.hash;
+            $('html, body').animate({
+              scrollTop: $(hash).offset().top
+            }, 800, function () {
+              // Add hash (#) to URL when done scrolling (default click behavior)
+              window.location.hash = hash;
+            });
+          } // End if
+        });
+      });
+    </script>
 </body>
 
 </html>
