@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
     integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-  <title>Tracalorie | Meal &amp; Calorie Tracker</title>
+  <title>Calorie Tracker</title>
 </head>
 
 <body>
@@ -46,12 +46,1175 @@
           </div>
         </form>
       </div>
-    </div>
-    <!-- Calorie Count -->
-    <h3 class="center-align">Total Calories: <span class="total-calories">0</span></h3>
-    <!-- Item List -->
-    <ul id="item-list" class="collection">
-      <!-- <li class="collection-item" id="item-0">
+
+
+
+
+      <style type="text/css">
+        table.tableizer-table {
+          font-size: 12px;
+          border: 1px solid #CCC;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .tableizer-table td {
+          padding: 4px;
+          margin: 3px;
+          border: 1px solid #CCC;
+        }
+
+        .tableizer-table th {
+          background-color: #104E8B;
+          color: #FFF;
+          font-weight: bold;
+        }
+      </style>
+      <table class="tableizer-table">
+        <thead>
+          <tr class="tableizer-firstrow">
+            <th><b>Popular Nigerian Food List</b></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td><b>Calories in Alcohol</b></td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td>ALCOHOL</td>
+            <td>PORTION SIZE</td>
+            <td>&nbsp;</td>
+            <td>CALORIES</td>
+          </tr>
+          <tr>
+            <td>Beer</td>
+            <td>356g</td>
+            <td>1 Can</td>
+            <td>154</td>
+          </tr>
+          <tr>
+            <td>Champagne</td>
+            <td>175ml</td>
+            <td>Medium Glass</td>
+            <td>133</td>
+          </tr>
+          <tr>
+            <td>Red Wine</td>
+            <td>175ml</td>
+            <td>Small Glass</td>
+            <td>149</td>
+          </tr>
+          <tr>
+            <td>Red Wine</td>
+            <td>250ml</td>
+            <td>Large Glass</td>
+            <td>212</td>
+          </tr>
+          <tr>
+            <td>Spirit</td>
+            <td>35ml</td>
+            <td>1 Measure</td>
+            <td>81</td>
+          </tr>
+          <tr>
+            <td>White Wine</td>
+            <td>175ml</td>
+            <td>Small Glass</td>
+            <td>144</td>
+          </tr>
+          <tr>
+            <td>White Wine</td>
+            <td>250ml</td>
+            <td>Large Glass</td>
+            <td>205</td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td><b>Calories In Cold Drinks And Juices</b></td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td>DRINK</td>
+            <td>PORTION SIZE</td>
+            <td>&nbsp;</td>
+            <td>CALORIES</td>
+          </tr>
+          <tr>
+            <td>7up</td>
+            <td>50cl</td>
+            <td>1 Big Bottle</td>
+            <td>216</td>
+          </tr>
+          <tr>
+            <td>7up</td>
+            <td>35cl</td>
+            <td>1 Medium Bottle</td>
+            <td>160</td>
+          </tr>
+          <tr>
+            <td>Apple Juice</td>
+            <td>200ml</td>
+            <td>Small Glass</td>
+            <td>87</td>
+          </tr>
+          <tr>
+            <td>"Apple Juice, </td>
+          </tr>
+          <tr>
+            <td>Unsweetened"</td>
+            <td>248 G</td>
+            <td>1 Cup</td>
+            <td>113</td>
+          </tr>
+          <tr>
+            <td>Carrot Juice</td>
+            <td>236 G</td>
+            <td>1 Cup</td>
+            <td>93</td>
+          </tr>
+          <tr>
+            <td>Coconut Water</td>
+            <td>240 G</td>
+            <td>1 Cup</td>
+            <td>45</td>
+          </tr>
+          <tr>
+            <td>Coke</td>
+            <td>50cl</td>
+            <td>1 Bottle</td>
+            <td>210</td>
+          </tr>
+          <tr>
+            <td>Diet Cola</td>
+            <td>330ml</td>
+            <td>1 Can</td>
+            <td>Trace</td>
+          </tr>
+          <tr>
+            <td>Grape Juice</td>
+            <td>249g</td>
+            <td>1 Cup</td>
+            <td>54</td>
+          </tr>
+          <tr>
+            <td>Lemon Juice</td>
+            <td>​</td>
+            <td>1 Table spoon</td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td>Lime Juice</td>
+            <td>​</td>
+            <td>1 Table spoon</td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td>Orange Juice</td>
+            <td>248g</td>
+            <td>1 Cup</td>
+            <td>111</td>
+          </tr>
+          <tr>
+            <td>Sprite</td>
+            <td>330ml</td>
+            <td>1 Can</td>
+            <td>146</td>
+          </tr>
+          <tr>
+            <td>Tomatoes Juice</td>
+            <td>243g</td>
+            <td>1 Cup</td>
+            <td>42</td>
+          </tr>
+          <tr>
+            <td>Vegetable Juice</td>
+            <td>247g</td>
+            <td>1 Cup</td>
+            <td>72</td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td><b>Calories In Nigerian Fruits</b></td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td>FRUIT</td>
+            <td>PORTION SIZE</td>
+            <td>&nbsp;</td>
+            <td>CALORIES</td>
+          </tr>
+          <tr>
+            <td>Apple</td>
+            <td>160g</td>
+            <td>1 Medium (1-1/4" Dia)</td>
+            <td>95</td>
+          </tr>
+          <tr>
+            <td>Avocado</td>
+            <td>150g</td>
+            <td>1 Cup (Sliced)</td>
+            <td>285</td>
+          </tr>
+          <tr>
+            <td>Banana</td>
+            <td>118g</td>
+            <td>1 Medium (7" To 7-7/8" Long)</td>
+            <td>105</td>
+          </tr>
+          <tr>
+            <td>Cherry</td>
+            <td>155g</td>
+            <td>1 Cup, Without Pits</td>
+            <td>77</td>
+          </tr>
+          <tr>
+            <td>Coconut</td>
+            <td>45g</td>
+            <td>1 Piece</td>
+            <td>159</td>
+          </tr>
+          <tr>
+            <td>Date</td>
+            <td>7.1g</td>
+            <td>1 Date</td>
+            <td>20</td>
+          </tr>
+          <tr>
+            <td>Grape</td>
+            <td>2.4g</td>
+            <td>1 Grape</td>
+            <td>2</td>
+          </tr>
+          <tr>
+            <td>Grapefruit</td>
+            <td>123g</td>
+            <td>½ Grapefruit(3" Dai)</td>
+            <td>52</td>
+          </tr>
+          <tr>
+            <td>Guava</td>
+            <td>55g</td>
+            <td>1 Guava (Without Refuse</td>
+            <td>38</td>
+          </tr>
+          <tr>
+            <td>Lemon</td>
+            <td>58g</td>
+            <td>1 Lemon (2-1/8" Dai)</td>
+            <td>17</td>
+          </tr>
+          <tr>
+            <td>Lime</td>
+            <td>67g</td>
+            <td>1 Lime (2" Dai)</td>
+            <td>20</td>
+          </tr>
+          <tr>
+            <td>Mango</td>
+            <td>336g</td>
+            <td>1 Mango (Without Refuse</td>
+            <td>201</td>
+          </tr>
+          <tr>
+            <td>Orange</td>
+            <td>131g</td>
+            <td>1 Orange(2-5/8" Dia)</td>
+            <td>62</td>
+          </tr>
+          <tr>
+            <td>Pawpaw</td>
+            <td>145g</td>
+            <td>1 Piece</td>
+            <td>62</td>
+          </tr>
+          <tr>
+            <td>Peach</td>
+            <td>150g</td>
+            <td>1 Medium (2-2/3" Dia)</td>
+            <td>59</td>
+          </tr>
+          <tr>
+            <td>Pear</td>
+            <td>178g</td>
+            <td>1 Medium</td>
+            <td>102</td>
+          </tr>
+          <tr>
+            <td>Pineapple</td>
+            <td>84g</td>
+            <td>1 Slice (3-1/2" Dia X 3/4" Thick)</td>
+            <td>42</td>
+          </tr>
+          <tr>
+            <td>Plantain (Unripe)</td>
+            <td>179g</td>
+            <td>1 Medium</td>
+            <td>218</td>
+          </tr>
+          <tr>
+            <td>Plantain (ripe)</td>
+            <td>179g</td>
+            <td>1 Medium</td>
+            <td>253</td>
+          </tr>
+          <tr>
+            <td>Plantain (fried)</td>
+            <td>​</td>
+            <td>1 Slice</td>
+            <td>68</td>
+          </tr>
+          <tr>
+            <td>Strawberry</td>
+            <td>12g</td>
+            <td>1 Medium (1-1/4" Dia)</td>
+            <td>2</td>
+          </tr>
+          <tr>
+            <td>Tangerine</td>
+            <td>88g</td>
+            <td>1 Meduim (21/2"Diam</td>
+            <td>47</td>
+          </tr>
+          <tr>
+            <td>Watermelon</td>
+            <td>152g</td>
+            <td>1 Cup (Diced)</td>
+            <td>46</td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td><b>Calories In Nigerian Vegetables</b></td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td>VEGETABLE</td>
+            <td>PORTION SIZE</td>
+            <td>&nbsp;</td>
+            <td>CALORIES</td>
+          </tr>
+          <tr>
+            <td>Broccoli, Raw</td>
+            <td>91g</td>
+            <td>1 Cup Chopped</td>
+            <td>31</td>
+          </tr>
+          <tr>
+            <td>Cabbage, Raw</td>
+            <td>89g</td>
+            <td>1 Cup, Chopped</td>
+            <td>22</td>
+          </tr>
+          <tr>
+            <td>Carrots, Raw</td>
+            <td>61g</td>
+            <td>1 Medium</td>
+            <td>25</td>
+          </tr>
+          <tr>
+            <td>Cassava Raw</td>
+            <td>206g</td>
+            <td>1 Cup</td>
+            <td>328</td>
+          </tr>
+          <tr>
+            <td>Cauliflower, Raw</td>
+            <td>107g</td>
+            <td>1 Cup Chopped (1/2" Pieces)</td>
+            <td>27</td>
+          </tr>
+          <tr>
+            <td>Cucumber, With Peel, Raw</td>
+            <td>52g</td>
+            <td>½ Cup Slices</td>
+            <td>8</td>
+          </tr>
+          <tr>
+            <td>Garden Egg</td>
+            <td>100g</td>
+            <td>1 Cup</td>
+            <td>25</td>
+          </tr>
+          <tr>
+            <td>Garlic, Raw</td>
+            <td>3g</td>
+            <td>1 Clove</td>
+            <td>5</td>
+          </tr>
+          <tr>
+            <td>Ginger</td>
+            <td>11g</td>
+            <td>5 Slices (1" Dia)</td>
+            <td>9</td>
+          </tr>
+          <tr>
+            <td>Green Beans</td>
+            <td>55g</td>
+            <td>10 Beans (4" Long)</td>
+            <td>17</td>
+          </tr>
+          <tr>
+            <td>Green Leaf Lettuce</td>
+            <td>36g</td>
+            <td>1 Cup Shredded</td>
+            <td>5</td>
+          </tr>
+          <tr>
+            <td>Green Peas,</td>
+            <td>145g</td>
+            <td>1 Cup</td>
+            <td>118​</td>
+          </tr>
+          <tr>
+            <td>Green Peppers</td>
+            <td>119g</td>
+            <td>1 Medium (Approx 2-3/4" Long, 2-1/2" Dia)</td>
+            <td>24</td>
+          </tr>
+          <tr>
+            <td>Hot Chili Peppers</td>
+            <td>45g</td>
+            <td>1 Pepper</td>
+            <td>40</td>
+          </tr>
+          <tr>
+            <td>Irish Potatoes</td>
+            <td>75g</td>
+            <td>½ Cup, Diced</td>
+            <td>77</td>
+          </tr>
+          <tr>
+            <td>Okra</td>
+            <td>95g</td>
+            <td>8 Pods (3" Long)</td>
+            <td>31</td>
+          </tr>
+          <tr>
+            <td>Onions, Raw</td>
+            <td>14g</td>
+            <td>1 Slice, Medium (1/8" Thick)</td>
+            <td>5</td>
+          </tr>
+          <tr>
+            <td>Pumpkin Seeds</td>
+            <td>64g</td>
+            <td>1 Cup</td>
+            <td>258</td>
+          </tr>
+          <tr>
+            <td>Spinach, Raw</td>
+            <td>10g</td>
+            <td>1 Leaf</td>
+            <td>2</td>
+          </tr>
+          <tr>
+            <td>Sweet Potato, Raw</td>
+            <td>130g</td>
+            <td>1 Sweet Potato, 5" Long</td>
+            <td>112</td>
+          </tr>
+          <tr>
+            <td>Tomatoes</td>
+            <td>123g</td>
+            <td>1 Medium</td>
+            <td>28</td>
+          </tr>
+          <tr>
+            <td>Yam</td>
+            <td>150g</td>
+            <td>1 Cup, Cubes</td>
+            <td>177</td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td><b>Calories In Nigerian Grains and Legumes</b></td>
+          </tr>
+          <tr>
+            <td>GRAINS OR LEGUME</td>
+            <td>PORTION SIZE</td>
+            <td>&nbsp;</td>
+            <td>CALORIES</td>
+          </tr>
+          <tr>
+            <td>Beans White</td>
+            <td>178g</td>
+            <td>1 Cup</td>
+            <td>249</td>
+          </tr>
+          <tr>
+            <td>Brown Beans (Boiled)</td>
+            <td>100g</td>
+            <td>1 Cup</td>
+            <td>379</td>
+          </tr>
+          <tr>
+            <td>Oatmeal (Cooked)</td>
+            <td>234g</td>
+            <td>1 Cup</td>
+            <td>158</td>
+          </tr>
+          <tr>
+            <td>Rice, White, Long-Grain, Raw</td>
+            <td>185g</td>
+            <td>1 Cup</td>
+            <td>675</td>
+          </tr>
+          <tr>
+            <td>Rice, White, Long-Grain, Cooked</td>
+            <td>&nbsp;</td>
+            <td>1 Table Spoon</td>
+            <td>14</td>
+          </tr>
+          <tr>
+            <td>Soybeans</td>
+            <td>100g</td>
+            <td>1 Cup</td>
+            <td>446</td>
+          </tr>
+          <tr>
+            <td>Millet</td>
+            <td>200g</td>
+            <td>1 Cup</td>
+            <td>756</td>
+          </tr>
+          <tr>
+            <td>Corn</td>
+            <td>90g</td>
+            <td>Medium (6-3/4" To 7-1/2" Long)</td>
+            <td>77</td>
+          </tr>
+          <tr>
+            <td>Green Peas</td>
+            <td>145g</td>
+            <td>1 Cup</td>
+            <td>118</td>
+          </tr>
+          <tr>
+            <td>Wheat Flour (All Purpose</td>
+            <td>245g</td>
+            <td>1 Cup</td>
+            <td>455</td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td><b>Calories In Nigerian Nuts</b></td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td>NUT</td>
+            <td>PORTION SIZE</td>
+            <td>&nbsp;</td>
+            <td>CALORIES</td>
+          </tr>
+          <tr>
+            <td>Almonds</td>
+            <td>1.2g</td>
+            <td>1 Almond</td>
+            <td>7</td>
+          </tr>
+          <tr>
+            <td>Cashew(Dry Roasted)</td>
+            <td>8.6g</td>
+            <td>1 Table Spoon</td>
+            <td>49</td>
+          </tr>
+          <tr>
+            <td>Coconut</td>
+            <td>45g</td>
+            <td>1 Piece</td>
+            <td>159</td>
+          </tr>
+          <tr>
+            <td>Ground Nut</td>
+            <td>​</td>
+            <td>1 Seed</td>
+            <td>5</td>
+          </tr>
+          <tr>
+            <td>Walnuts</td>
+            <td>28g</td>
+            <td>Cup, In Shell, Edible Yield (7 Nuts)</td>
+            <td>183</td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td><b>Calories In Spreads</b></td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td>SPREAD</td>
+            <td>PORTION SIZE</td>
+            <td>&nbsp;</td>
+            <td>CALORIES</td>
+          </tr>
+          <tr>
+            <td>Butter</td>
+            <td>14.2g</td>
+            <td>1 Table Spoon</td>
+            <td>102</td>
+          </tr>
+          <tr>
+            <td>Ketchup</td>
+            <td>17g</td>
+            <td>1 Table Spoon</td>
+            <td>20</td>
+          </tr>
+          <tr>
+            <td>Margarine</td>
+            <td>14.2g</td>
+            <td>1 Table Spoon</td>
+            <td>102</td>
+          </tr>
+          <tr>
+            <td>Mayonnaise</td>
+            <td>13.8g</td>
+            <td>1 Table Spoon</td>
+            <td>94</td>
+          </tr>
+          <tr>
+            <td>Barbecue Sauce</td>
+            <td>17g</td>
+            <td>1 Table Spoon</td>
+            <td>29</td>
+          </tr>
+          <tr>
+            <td>Peanut Butter</td>
+            <td>32g</td>
+            <td>2 Table Spoon</td>
+            <td>188</td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td><b>Calories In Sweetners</b></td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td>SWEETNER</td>
+            <td>PORTION SIZE</td>
+            <td>&nbsp;</td>
+            <td>CALORIES</td>
+          </tr>
+          <tr>
+            <td>Honey</td>
+            <td>21g</td>
+            <td>1 Table Spoon</td>
+            <td>64</td>
+          </tr>
+          <tr>
+            <td>Raisin</td>
+            <td>26g</td>
+            <td>50 Raisins</td>
+            <td>78</td>
+          </tr>
+          <tr>
+            <td>Sugar</td>
+            <td>2.3g</td>
+            <td>1 Cube</td>
+            <td>9</td>
+          </tr>
+          <tr>
+            <td>"Sugar Granulated</td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td>​"</td>
+            <td>2.5g</td>
+            <td>1 Tea Spoon</td>
+            <td>10</td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td>8g</td>
+            <td>1 Table Spoon</td>
+            <td>31</td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td><b>Calories In Nigerian Snacks</b></td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td>SNAK</td>
+            <td>PORTION SIZE</td>
+            <td>&nbsp;</td>
+            <td>CALORIES</td>
+          </tr>
+          <tr>
+            <td>Cupcake With Icing</td>
+            <td>43g</td>
+            <td>1 Cupcake</td>
+            <td>155</td>
+          </tr>
+          <tr>
+            <td>Cupcake Without Icing</td>
+            <td>43g</td>
+            <td>1 Cupcake</td>
+            <td>155</td>
+          </tr>
+          <tr>
+            <td>Gala</td>
+            <td>2.3g</td>
+            <td>1 Packet (regular)</td>
+            <td>297</td>
+          </tr>
+          <tr>
+            <td>Ice Cream Cone</td>
+            <td>4g</td>
+            <td>1 Cone</td>
+            <td>17</td>
+          </tr>
+          <tr>
+            <td>Ice Cream (Vanilla)</td>
+            <td>66g</td>
+            <td>½ Cup</td>
+            <td>137</td>
+          </tr>
+          <tr>
+            <td>Samosa</td>
+            <td>​</td>
+            <td>Average Size</td>
+            <td>80</td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td><b>Calories In Animal Produce</b></td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td>ANIMAL PRODUCE</td>
+            <td>PORTION SIZE</td>
+            <td>&nbsp;</td>
+            <td>CALORIES</td>
+          </tr>
+          <tr>
+            <td>Chicken Breast</td>
+            <td>52g</td>
+            <td>1 Unit (From 454g Uncooked Chicken)</td>
+            <td>86</td>
+          </tr>
+          <tr>
+            <td>"Chicken Drumsticks</td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td>​"</td>
+            <td>133g</td>
+            <td>1 Drumstick With Skin</td>
+            <td>211</td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td>122g</td>
+            <td>1 Drumstick Without Skin</td>
+            <td>194</td>
+          </tr>
+          <tr>
+            <td>Chicken Liver</td>
+            <td>44g</td>
+            <td>1 Liver</td>
+            <td>76</td>
+          </tr>
+          <tr>
+            <td>Chicken Thigh</td>
+            <td>135g</td>
+            <td>1 Thigh With Skin(From 453g Uncooked Chicken</td>
+            <td>239</td>
+          </tr>
+          <tr>
+            <td>Chicken Wings</td>
+            <td>13g</td>
+            <td>1 Unit (From 453g Uncooked Chicken)</td>
+            <td>26</td>
+          </tr>
+          <tr>
+            <td>Egg Fried</td>
+            <td>46g</td>
+            <td>1 Large Egg</td>
+            <td>90</td>
+          </tr>
+          <tr>
+            <td>Egg White Raw</td>
+            <td>33g</td>
+            <td>1 Egg White</td>
+            <td>17</td>
+          </tr>
+          <tr>
+            <td>Egg(Boiled)</td>
+            <td>50g</td>
+            <td>1 Large Egg</td>
+            <td>78</td>
+          </tr>
+          <tr>
+            <td>Gizzard</td>
+            <td>100g</td>
+            <td>1 Cup</td>
+            <td>239</td>
+          </tr>
+          <tr>
+            <td>Goat Meat</td>
+            <td>28g</td>
+            <td>&nbsp;</td>
+            <td>31</td>
+          </tr>
+          <tr>
+            <td>Liver</td>
+            <td>85g</td>
+            <td>&nbsp;</td>
+            <td>140</td>
+          </tr>
+          <tr>
+            <td>Milk (Powdered)</td>
+            <td>32g</td>
+            <td>¼ Cup</td>
+            <td>159</td>
+          </tr>
+          <tr>
+            <td>Milk (Peak- Powdered )</td>
+            <td>&nbsp;</td>
+            <td>1 Table Spoon</td>
+            <td>40</td>
+          </tr>
+          <tr>
+            <td>Turkey Breast</td>
+            <td>18kg</td>
+            <td>​</td>
+            <td>120</td>
+          </tr>
+          <tr>
+            <td><b>Calories In Seafood</b></td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td>Seafood</td>
+            <td>PORTION SIZE</td>
+            <td>&nbsp;</td>
+            <td>CALORIES</td>
+          </tr>
+          <tr>
+            <td>Prawn</td>
+            <td>100g</td>
+            <td>​</td>
+            <td>105</td>
+          </tr>
+          <tr>
+            <td>Sardines</td>
+            <td>​</td>
+            <td>(1 Med = 3" Long):</td>
+            <td>25</td>
+          </tr>
+          <tr>
+            <td>Sardines (Canned- Oil Drained</td>
+            <td>​</td>
+            <td>(1 Med = 3" Long)</td>
+            <td>41</td>
+          </tr>
+          <tr>
+            <td>Sardines (Canned- Oil Not Drained</td>
+            <td>​</td>
+            <td>(1 Med = 3" Long)</td>
+            <td>236</td>
+          </tr>
+          <tr>
+            <td>Walnuts</td>
+            <td>28g</td>
+            <td>Cup, In Shell, Edible Yield (7 Nuts)</td>
+            <td>183</td>
+          </tr>
+          <tr>
+            <td>Shrimp (Cooked)</td>
+            <td>100g</td>
+            <td>​</td>
+            <td>99</td>
+          </tr>
+          <tr>
+            <td>Shrimp (Raw)</td>
+            <td>100g</td>
+            <td>​</td>
+            <td>85</td>
+          </tr>
+          <tr>
+            <td>Snail</td>
+            <td>100g</td>
+            <td>​</td>
+            <td>90</td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td><b>Calories In Oils</b></td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td>Oil</td>
+            <td>PORTION SIZE</td>
+            <td>&nbsp;</td>
+            <td>CALORIES</td>
+          </tr>
+          <tr>
+            <td>Coconut Oil</td>
+            <td>4.5g</td>
+            <td>1 Tea Spoon</td>
+            <td>39</td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td>13.6g</td>
+            <td>1 Table Spoon</td>
+            <td>117</td>
+          </tr>
+          <tr>
+            <td>Palm Oil</td>
+            <td>4.5g</td>
+            <td>1 Tea Spoon</td>
+            <td>40</td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td>13.6g</td>
+            <td>1 Table Spoon</td>
+            <td>236</td>
+          </tr>
+          <tr>
+            <td>Oil (All other types)</td>
+            <td>4.5g</td>
+            <td>1 Tea Spoon</td>
+            <td>40</td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td>13.6g</td>
+            <td>1 Table Spoon</td>
+            <td>236</td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td><b>Calories In Nigerian Swallow*</b></td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td>Swallow</td>
+            <td>PORTION SIZE</td>
+            <td>&nbsp;</td>
+            <td>CALORIES</td>
+          </tr>
+          <tr>
+            <td>Amala</td>
+            <td>​</td>
+            <td>1 cup</td>
+            <td>352</td>
+          </tr>
+          <tr>
+            <td>Fufu/Akpu</td>
+            <td>​</td>
+            <td>One Wrap(Approximately One Cup Of Cassava Flour)</td>
+            <td>330</td>
+          </tr>
+          <tr>
+            <td>Garri (Eba)</td>
+            <td>​</td>
+            <td>1 Cup (aprox)</td>
+            <td>360</td>
+          </tr>
+          <tr>
+            <td>Pounded Yam</td>
+            <td>​</td>
+            <td>1 Milk Tin Cup</td>
+            <td>400</td>
+          </tr>
+          <tr>
+            <td>Semovita</td>
+            <td>​</td>
+            <td>1 Cup</td>
+            <td>600</td>
+          </tr>
+          <tr>
+            <td>Tuwo Masara (White Corn Meal)</td>
+            <td>​</td>
+            <td>1 Cup</td>
+            <td>450</td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td><b>Calories In Nigerian Foods (Others)</b></td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td>GRAINS OR LEGUME</td>
+            <td>PORTION SIZE</td>
+            <td>&nbsp;</td>
+            <td>CALORIES</td>
+          </tr>
+          <tr>
+            <td>Akara</td>
+            <td>​</td>
+            <td>1 Ball</td>
+            <td>71</td>
+          </tr>
+          <tr>
+            <td>Baked Beans</td>
+            <td>255g (9oz)</td>
+            <td>1 Cup</td>
+            <td>239</td>
+          </tr>
+          <tr>
+            <td>Can Tomatoes</td>
+            <td>110.5g(3.9oz)</td>
+            <td>Medium</td>
+            <td>19</td>
+          </tr>
+          <tr>
+            <td>Coleslaw</td>
+            <td>191g</td>
+            <td>1 Cup</td>
+            <td>291</td>
+          </tr>
+          <tr>
+            <td>Corned Beef</td>
+            <td>85g</td>
+            <td>​</td>
+            <td>213</td>
+          </tr>
+          <tr>
+            <td>Curry Powder</td>
+            <td>2g</td>
+            <td>1 Tea Spoon</td>
+            <td>6</td>
+          </tr>
+          <tr>
+            <td>Ewedu (Cooked)</td>
+            <td>​</td>
+            <td>½ Cup</td>
+            <td>20</td>
+          </tr>
+          <tr>
+            <td>Maggi</td>
+            <td>​</td>
+            <td>1 Cube</td>
+            <td>5</td>
+          </tr>
+          <tr>
+            <td>Pap(Raw)</td>
+            <td>​</td>
+            <td>I Table Spoon</td>
+            <td>91</td>
+          </tr>
+          <tr>
+            <td>Ugba</td>
+            <td>100g</td>
+            <td>​</td>
+            <td>406</td>
+          </tr>
+        </tbody>
+      </table>
+
+
+
+      <!-- Calorie Count -->
+      <h4 class="center-align">Total Calories: <span class="total-calories">0</span></h4>
+      <!-- Item List -->
+      <ul id="item-list" class="collection">
+        <!-- <li class="collection-item" id="item-0">
         <strong>Steak Dinner: </strong><em>1200 Calories</em>
         <a href="#" class="secondary-content">
           <i class="edit-item fa fa-pencil"></i>
@@ -69,13 +1232,13 @@
           <i class="edit-item fa fa-pencil"></i>
         </a>
       </li> -->
-    </ul>
-  </div>
+      </ul>
+    </div>
 
-  <script src="http://code.jquery.com/jquery-3.3.1.min.js"
-    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-  <script src="app.js"></script>
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <script src="app.js"></script>
 </body>
 
 </html>
